@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors in Css</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 9px;
+            padding: 0;
+        }
+        .colors{
+            border: 1px solid black;
+            margin: 10px;
+            background: aquamarine;
+        }
+        .Hexadecimal{
+            border: 1px solid black;
+            margin: 10px;
+            background-color: #0000ff;
+        }
+        .hexcolor{
+            /* background-color: #0000ff; */
+            color: #224b4b;
+        }
+        .RGB-colors{
+            border: 1px solid black;
+            margin: 10px;
+            background-color: #0000ff;
+        }
+        .rgbcolors{
+            color: rgb(198, 87, 87);
+        }
+        .Predefinedcolors{
+            border: 1px solid black;
+            background-color: red;
+            margin: 10px;
+        }
+        .Predefinedcolors1{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="colors">
+        <h1>Colors in CSS</h1>
+        <ul>Colors in CSS can be specified by the following methods: 
+            <li>Hexadecimal colors</li>
+            <li>RGB colors</li>
+            <li>Predefined/Cross-browser color names</li>
+            <li>RGBA colors</li>
+            <li>HSL colors</li>
+            <li>HSLA colors</li>
+        </ul>
+    </div>
+    <div class="Hexadecimal">
+        <h1>Hexadecimal Colors</h1>
+        <ul class="hexcolor">
+            <li >A Hexadecimal color is specified with: #RRGGBB, where RR(red), GG*(green), BB(blue) Hexadecimal integers specify the components of the colors. All values must be between 00 and FF,</li>
+            <li>Foe Example, the #0000ff value in rendered as blue, because the blue component is set to its highest value (ff) and others are set to 00.</li>
+        </ul>
+    </div>
+    <div class="RGB-colors">
+        <h1>RGB Colors</h1>
+        <ul class="rgbcolors">
+            <li>An RGB color value is specified with the rgb() function, which has the foloowing syntax: rgb(red, green, blue)</li>
+            <li> Each parametre(red, green, blue) defines the intensity of the colors and can be an integer between 0 and 255 or a percentage value (from 0% to 100%)</li>
+            <li>For example, the rgb(0,0,255) is rendered as blue, because the blue parametre is set to its highest value(255) and the others are set to 0.</li>
+        </ul>
+    </div>
+    <div class="Predefinedcolors">
+        <h1>Predefined/Cross-browser color</h1>
+        <ul class="Predefinedcolors1">
+            <li>140 color names are predefined in the HTML and CSS color specification.</li>
+        </ul>
+    </div>
+</body>
+</html>
